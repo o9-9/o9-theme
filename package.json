@@ -1,0 +1,27 @@
+{
+  "name": "o9-dark-theme",
+  "displayName": "o9 Dark Theme",
+  "description": "o9 Dark Theme",
+  "version": "0.0.1",
+  "publisher": "o9-9",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/o9-9/o9-dark-theme.git"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+  "categories": [
+    "Themes"
+  ],
+	"icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "o9 Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "themes/o9-Dark-theme.json"
+      }
+    ]
+  }
+}
