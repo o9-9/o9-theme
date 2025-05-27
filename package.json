@@ -1,26 +1,22 @@
 {
-  "name": "o9-theme",
-  "displayName": "o9 Theme",
-  "description": "o9 Dark Theme",
+  "name": "o9-theme-vscode",
+  "displayName": "o9 Theme for VS Code",
+  "description": "Theme by o9",
   "version": "0.0.1",
-  "publisher": "o9-9",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/o9-9/o9-theme.git"
-	},
-	"engines": {
-		"vscode": "*"
-	},
+  "publisher": "o9",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
   "categories": [
     "Themes"
   ],
-	"icon": "icon.png",
+  "icon": "icon.svg",
   "contributes": {
     "themes": [
       {
-        "label": "o9 Theme Dark",
+        "label": "o9 Dark",
         "uiTheme": "vs-dark",
-        "path": "themes/o9-theme-dark.json"
+        "path": "themes/o9-dark-color-theme.json"
       }
     ]
   }
