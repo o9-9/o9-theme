@@ -1,0 +1,12 @@
+node_modules/
+src/
+desktop.ini
+cursor-shortcut.lnk
+vs-code-shortcut.lnk
+.github/workflows/workflow.yaml
+.npmrc
+.vscode/launch.json
+/.vscode
+banner.png
+CONTRIBUTING
+package-lock.json

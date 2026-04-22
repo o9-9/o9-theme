@@ -1,0 +1,473 @@
+{
+	"name": "o9-theme",
+	"displayName": "o9 Theme",
+	"description": "o9 Theme Modern, minimal light and dark for 2026 with consistent neutral palette and accessible color contrast",
+	"publisher": "o9-9",
+	"version": "0.0.1",
+	"license": "MIT",
+	"pricing": "Trial",
+	"icon": "assets/icon.png",
+	"type": "module",
+	"homepage": "https://o9ll.com",
+	"funding": "https://github.com/o9-9/o9-theme?sponsor=1",
+	"author": {
+		"name": "o9 [@o9-9]",
+		"email": "o9@o9ll.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/o9-9/o9-theme"
+	},
+	"sponsor": {
+		"url": "https://github.com/o9-9/o9-theme?sponsor=1"
+	},
+	"bugs": {
+		"url": "https://github.com/o9-9/o9-theme/issues"
+	},
+	"engines": {
+		"vscode": "^1.95.0"
+	},
+	"enabledApiProposals": [
+		"css"
+	],
+	"galleryBanner": {
+		"color": "#151517",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"o9"
+	],
+	"capabilities": {
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "o9i",
+				"title": "o9: enter license"
+			},
+			{
+				"command": "o9s",
+				"title": "o9: select theme"
+			},
+			{
+				"command": "o9a",
+				"title": "o9: activate icons"
+			}
+		],
+		"themes": [
+			{
+				"id": "o",
+				"label": "o",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o.json"
+			},
+			{
+				"label": "o9",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9.json"
+			},
+			{
+				"id": "o9th",
+				"label": "o9th",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9th.json"
+			},
+            {
+            "label": "o9 Themer",
+            "uiTheme": "vs-dark",
+            "path": "themes/o9-themer.json"
+            },
+			{
+				"label": "o96",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o96.json"
+			},
+			{
+				"id": "o9 2026 Dark",
+				"label": "o9 2026 Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-dark-2026.json"
+			},
+			{
+				"id": "o9 Dark Modern",
+				"label": "o9 Dark Modern",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-dark-modern.json"
+			},
+			{
+				"id": "o9 Dark Plus",
+				"label": "o9 Dark Plus",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-dark-plus.json"
+			},
+			{
+				"id": "o9 Dark",
+				"label": "o9 Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-dark.json"
+			},
+			{
+        		"label": "o9 Tokyo",
+        		"uiTheme": "vs-dark",
+       		 "path": "./themes/o9-tokyo.json"
+			},
+			{
+       		 "label": "o9 Tokyo Storm",
+        		"uiTheme": "vs-dark",
+        		"path": "./themes/o9-tokyo-storm.json"
+			},
+			{
+        		"label": "o9 Jellyfish",
+        		"uiTheme": "vs-dark",
+        		"path": "./themes/o9-jellyfish.json"
+			},
+			{
+       		 "label": "o9 Vitesse",
+       		 "uiTheme": "vs-dark",
+       		 "path": "./themes/o9-vitesse.json"
+            },
+            {
+       		 "label": "o9 Vesper",
+        		"uiTheme": "vs-dark",
+        		"path": "./themes/o9-vesper.json"
+            },
+            {
+       		 "label": "o9 Horizon",
+        		"uiTheme": "vs-dark",
+        		"path": "./themes/o9-horizon.json"
+            },
+            {
+       		 "label": "o9 SynthWave",
+        		"uiTheme": "vs-dark",
+        		"path": "./themes/o9-synthwave.json"
+            },
+            {
+        		"label": "o9 Atom",
+        		"uiTheme": "vs-dark",
+        		"path": "./themes/o9-atom.json"
+            },
+            {
+        		"label": "o9 Night",
+        		"uiTheme": "vs-dark",
+        		"path": "./themes/o9-night.json"
+            },
+			{
+				"label": "o9 Discord",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-discord.json"
+			},
+			{
+				"label": "o9 Dusk",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-dusk.json"
+			},
+			{
+				"label": "o9 Min",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-min.json"
+			},
+			{
+				"id": "o9 Vivid",
+				"label": "o9 Vivid",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-vivid.json"
+			},
+			{
+				"label": "o9 GitHub",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-github.json"
+			},
+			{
+				"label": "o9 GitHub Colorblind",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-github-colorblind.json"
+			},
+			{
+				"label": "o9 GitHub Dimmed",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-github-dimmed.json"
+			},
+			{
+				"label": "o9 GitHub Legacy",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-github-legacy.json"
+			},
+			{
+				"label": "o9 Pine",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-pine.json"
+			},
+			{
+				"label": "o9 Moon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-moon.json"
+			},
+			{
+				"id": "o9 Gitpod",
+				"label": "o9 Gitpod",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-gitpod.json"
+			},
+			{
+				"id": "o9 Lynx",
+				"label": "o9 Lynx",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-lynx.json"
+			},
+			{
+				"id": "o9 LNight",
+				"label": "o9 LNight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-lnight.json"
+			},
+			{
+				"id": "o9 Lcoffee",
+				"label": "o9 Lcoffee",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-lcoffee.json"
+			},
+			{
+				"id": "o9 LNvim",
+				"label": "o9 LNvim",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-lnvim.json"
+			},
+			{
+				"id": "o9 LTest",
+				"label": "o9 LTest",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-ltest.json"
+			},
+			{
+				"id": "o9 LKiro",
+				"label": "o9 LKiro",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-lzkiro.json"
+			},
+			{
+				"label": "o99",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o99.json"
+			},
+			{
+				"label": "o99 Octagon",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o99-octagon.json"
+			},
+			{
+				"label": "o99 Ristretto",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o99-ristretto.json"
+			},
+			{
+				"label": "o99 Spectrum",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o99-spectrum.json"
+			},
+			{
+				"label": "o99 Machine",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o99-machine.json"
+			},
+			{
+				"label": "o99 Classic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o99-classic.json"
+			},
+			{
+				"id": "o9 Ayu Mirage Unbordered",
+				"label": "o9 Ayu Mirage Unbordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-ayu-mirage-unbordered.json"
+			},
+			{
+				"id": "o9 Ayu Mirage Bordered",
+				"label": "o9 Ayu Mirage Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-ayu-mirage-bordered.json"
+			},
+			{
+				"id": "o9 Ayu Unbordered",
+				"label": "o9 Ayu Unbordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-ayu-dark-unbordered.json"
+			},
+			{
+				"id": "o9 Ayu Dark Bordered",
+				"label": "o9 Ayu Dark Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-ayu-dark-bordered.json"
+			},
+			{
+				"label": "o9 Andromeda",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-andromeda.json"
+			},
+			{
+				"label": "o9 Andromeda Bordered",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-andromeda-bordered.json"
+			},
+			{
+				"label": "o9 Andromeda Colorizer",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-andromeda-colorizer.json"
+			},
+			{
+				"label": "o9 Magic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-magic.json"
+			},
+			{
+				"label": "o9 Magic Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-magic-night.json"
+			},
+			{
+				"label": "o9 Magic Nord",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-magic-nord.json"
+			},
+			{
+				"label": "o9 Magic Dracula",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-magic-dracula.json"
+			},
+			{
+				"label": "o9 Magic Tokyo",
+				"uiTheme": "vs-dark",
+				"path": "./themes/o9-magic-tokyo.json"
+			}
+		],
+		"css": [
+			{
+				"path": "./themes/css/styles.css"
+			},
+			{
+				"path": "./themes/css/o9.css"
+			}
+		],
+		"iconThemes": [
+			{
+				"label": "o9 Minimal",
+				"id": "o9 Minimal",
+				"path": "./themes/icons/o9-minimal.json"
+			},
+			{
+				"label": "o9 Icon",
+				"id": "o9 Icon",
+				"path": "./themes/icons/o9.json"
+			},
+			{
+				"label": "o9 Mono Icon",
+				"id": "o9 Mono Icon",
+				"path": "./themes/icons/o9-mono.json"
+			},
+			{
+				"label": "o9 Octagon Icon",
+				"id": "o9 Octagon Icon",
+				"path": "./themes/icons/o9-octagon.json"
+			},
+			{
+				"label": "o9 Octagon Mono Icon",
+				"id": "o9 Octagon Mono Icon",
+				"path": "./themes/icons/o9-octagon-mono.json"
+			},
+			{
+				"label": "o9 Ristretto Icon",
+				"id": "o9 Ristretto Icon",
+				"path": "./themes/icons/o9-ristretto.json"
+			},
+			{
+				"label": "o9 Ristretto Mono Icon",
+				"id": "o9 Ristretto Mono Icon",
+				"path": "./themes/icons/o9-ristretto-mono.json"
+			},
+			{
+				"label": "o9 Spectrum Icon",
+				"id": "o9 Spectrum Icon",
+				"path": "./themes/icons/o9-spectrum.json"
+			},
+			{
+				"label": "o9 Spectrum Mono Icon",
+				"id": "o9 Spectrum Mono Icon",
+				"path": "./themes/icons/o9-spectrum-mono.json"
+			},
+			{
+				"label": "o9 Machine Icon",
+				"id": "o9 Machine Icon",
+				"path": "./themes/icons/o9-machine.json"
+			},
+			{
+				"label": "o9 Machine Mono Icon",
+				"id": "o9 Machine Mono Icon",
+				"path": "./themes/icons/o9-machine-mono.json"
+			},
+			{
+				"label": "o9 Classic Icon",
+				"id": "o9 Classic Icon",
+				"path": "./themes/icons/o9-classic.json"
+			},
+			{
+				"label": "o9 Classic Mono Icon",
+				"id": "o9 Classic Mono Icon",
+				"path": "./themes/icons/o9-classic-mono.json"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "o9 Settings",
+			"properties": {
+				"o9.iconsPack": {
+					"type": "boolean",
+					"default": false,
+					"description": "o9 icon pack"
+				}
+			}
+		}
+	},
+	"files": [
+		"changelog.md",
+		"LICENSE",
+		"README.md",
+		"themes/**",
+		"files/**",
+		"assets/icon.*"
+	],
+	"scripts": {
+		"package": "vsce package -o ./o9-theme-${npm_package_version}.vsix",
+		"build": "o9cone && npm run format",
+		"watch": "o9cone --watch",
+		"format": "prettier --write .",
+		"validate": "node scripts/validate.js",
+		"dev": "code --extensionDevelopmentPath=${PWD}",
+		"release": "npx np@latest --no-publish --no-tests",
+		"version": "npm run build && npm run format"
+	},
+	"devDependencies": {
+		"@o9-icons/palette": "3.0.1",
+		"o9cone-cli": "^4.0.1",
+		"prettier": "^3.3.3"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"useTabs": true
+	},
+	"main": "./js/main",
+	"browser": "./js/browser",
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"qna": false
+}
