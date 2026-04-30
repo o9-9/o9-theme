@@ -1,0 +1,1 @@
+Copy-Item -Path ".\o9-theme" -Destination "C:\Program Files\cursor\resources\app\extensions" -Recurse -Force
